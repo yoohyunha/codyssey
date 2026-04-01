@@ -6,7 +6,7 @@ def main():
     inventory_list = [] #읽어올 데이터 담을 빈 리스트 생성
 
     try:
-        # 1. CSV 파일 읽기 및 출력 (라이브러리 없이 구현)
+        # 1. CSV 파일 읽기 및 출력
         with open(input_file, 'r', encoding='utf-8') as file: # 파일을 읽기모드로 열기
             header = file.readline().strip() # 맨 윗줄만 따로 읽어서 저장
             for line in file:
