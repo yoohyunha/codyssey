@@ -51,7 +51,9 @@ class DummySensor:
             f'{self.env_values["mars_base_external_illuminance"]}, '
             f'{self.env_values["mars_base_internal_co2"]}, '
             f'{self.env_values["mars_base_internal_oxygen"]}\n'
+        
         )
+        
 
         with open(LOG_FILE_PATH, 'a', encoding='utf-8') as log_file:
             log_file.write(log_message)
