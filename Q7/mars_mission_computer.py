@@ -61,7 +61,7 @@ class MissionComputer:
     def get_sensor_data(self):
         # 센서값을 가져와 env_values에 저장하고 5초마다 JSON으로 출력합니다.
         start_time = time.time()
-        print('Press q to stop.')
+        print('Press q to stop. ')
 
         try:
             while True:
